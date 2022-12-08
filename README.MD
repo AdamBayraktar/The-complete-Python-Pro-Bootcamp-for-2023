@@ -5,6 +5,7 @@ I am going to upload some excersices and project from the course. In the end if 
 
 |  Project Name 	|   Day	|   Desccription	|   difficulty	|
 |---	|---	|---	|---	|
-|  Calculator 	|   10	|   program that calculates two given number and operations	|   1/10	| 
+|  Calculator 	|   10	|   program that calculates result of two given number and operations	|   1/10	| 
 |   Blackjack	|   11	|   game based on Blackjack	|   2/10	|
-|   Guess The number	|   12	|   game where you have guess computers number	|   1/10	|
+|   Guess The number	|   12	|   game where you have to guess computers number	|   1/10	|
+|   Higher Lower	|   14	|   game where you have to guess which account has more followers	|   1/10	|
