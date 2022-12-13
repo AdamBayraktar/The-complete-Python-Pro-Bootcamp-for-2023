@@ -10,11 +10,12 @@ In the last column you can find all non-built modules that I used for the projec
 
 ***
 
-|  Project Name 	|   Day	|   Description	|   difficulty	|   modules	|
+|  Project Name 	|   Day	|   Description	|   difficulty	|   external modules	|
 |---	|---	|---	|---	|---	|
 |  Calculator 	|   10	|   program that calculates result of two given number and operations	|   1/10	|    none	|
 |   Blackjack	|   11	|   game based on Blackjack	|   2/10	|    none	|
 |   Guess The number	|   12	|   game where you have to guess computers number	|   1/10	|    none	|
 |   Higher Lower	|   14	|   game where you have to guess which account has more followers	|   1/10	|    none	|
-|   Coffee Machine	|   14	|   program for coffee machine	|   1/10	|    none	|
-|   Coffee Machine OOP	|   14	|   program for coffee machine written by using OOP	|   1/10	|    none	|
+|   Coffee Machine	|   15	|   program for coffee machine	|   1/10	|    none	|
+|   Coffee Machine OOP	|   16	|   program for coffee machine written by using OOP	|   1/10	|    none	|
+|   Quiz Game	|   17	|   quiz game with 10 question, database is random and got using API	|   2/10	|    requests	|
