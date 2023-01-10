@@ -19,3 +19,5 @@ In the last column you can find all non-built modules that I used for the projec
 |   Coffee Machine	|   15	|   program for coffee machine	|   1/10	|    none	|
 |   Coffee Machine OOP	|   16	|   program for coffee machine written by using OOP	|   1/10	|    none	|
 |   Quiz Game	|   17	|   quiz game with 10 question, database is random and got using API	|   2/10	|    requests	|
+|   Etch A Sketch	|   19	|   program that reminds Etch A Sketch, you can draw anything using arrows	|   1/10	|    turtle	|
+|   Race	|   19	|   turtle race where user makes bet on which turtle will win	|   1/10	|    turtle	|
