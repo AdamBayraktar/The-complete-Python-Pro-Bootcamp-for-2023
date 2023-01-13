@@ -22,3 +22,4 @@ In the last column you can find all non-built modules that I used for the projec
 |   Etch A Sketch	|   19	|   program that reminds Etch A Sketch, you can draw anything using arrows	|   1/10	|    turtle	|
 |   Race	|   19	|   turtle race where user makes bet on which turtle will win	|   1/10	|    turtle	|
 |   Snake Game	|   20/21	|   classic snake game, where you have to eat food as many as possible	|   3/10	|    turtle	|
+|   Pong Game	|   22	|   classic pong game, where you have to bounce ball to score points. Get 3 points to win	|   4/10	|    turtle	|
