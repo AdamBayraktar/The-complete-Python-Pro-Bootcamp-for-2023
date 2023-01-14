@@ -27,18 +27,26 @@ def main():
     speed = 10
     round = 1
     production = 5
+    time_sleep = 0.1
     while True:
         # move all obstacles
         for index, car in enumerate(obstacles):
             car.fd(speed)
             if car.outside():
                 del obstacles[index]
-        time.sleep(0.1)
+        time.sleep(time_sleep)
         game_screen.update()
         if turtle.final_line():
             level.level_up()
             turtle.reset()
-            speed *= 1.5
+            if speed < 20:
+                speed *= 1.5
+            else:
+                time_sleep *= 0.9
+            if level.level == 5:
+                production -= 1
+            elif level.level == 10:
+                production -= 1
         for car in obstacles:
             if turtle.check_hit(*car.position()):
                 GameOver()
@@ -52,10 +60,7 @@ def main():
         elif round % production == 2:
             obstacles.append(LeftCar())
         round += 1
-        if level.level == 5:
-            production -= 1
-        elif level.level == 10:
-            production -= 1
+        
 
     
 
