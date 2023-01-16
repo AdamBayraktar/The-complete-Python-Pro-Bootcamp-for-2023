@@ -24,3 +24,4 @@ In the last column you can find all non-built modules that I used for the projec
 |   Snake Game	|   20/21	|   classic snake game, where you have to eat food as many as possible	|   3/10	|    turtle	|
 |   Pong Game	|   22	|   classic pong game, where you have to bounce ball to score points. Get 3 points to win	|   4/10	|    turtle	|
 |   Turtle Crossing	|   23	|   a game where you have to help turtle reach finish line by avoiding being hit by car	|   4/10	|    turtle	|
+|   Guess US states	|   25	|   guessing game, where you have guess all US states	|   1/10	|    turtle	|
