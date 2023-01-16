@@ -23,6 +23,9 @@ class SnakeScreen:
     def bye(self):
         self.screen.bye()
 
+    def clear(self):
+        self.screen.clear()
+
     @property
     def points(self):
         return self.__points
