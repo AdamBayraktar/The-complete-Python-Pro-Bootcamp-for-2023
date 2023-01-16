@@ -2,17 +2,25 @@ from time import sleep
 from snake import Snake
 from food import Food
 from screen import SnakeScreen
-from scoreboard import ScoreBoard
+from scoreboard import ScoreBoard, HighScoreBoard
+import csv
 
 def main():
-    global screen
     screen = SnakeScreen()   
     the_snake = Snake()
     screen.update()
     food = Food()
     scoreboard = ScoreBoard()
+    with open("highscore.csv") as csvfile:
+        high_score_reader = csv.reader(csvfile)
+        for score in high_score_reader:
+            highscore = int(score[0])
+            break
+    HighScoreBoard(highscore)
+    screen.screen.onkeypress(the_snake.turn_left, "Left")
+    screen.screen.onkeypress(the_snake.turn_right, "Right")
+    screen.screen.onkeypress(screen.bye, "q")
     while True:
-        control(the_snake)
         the_snake.move_snake()
         if food.is_eaten(the_snake.snake):
             # food.ht()
@@ -26,6 +34,10 @@ def main():
             scoreboard.game_over()
             screen.update()
             sleep(2)
+            if screen.points > highscore:
+                update_highscore(screen.points)
+            screen.clear()
+            main()
             screen.bye()
             return 0
         screen.update()
@@ -33,11 +45,10 @@ def main():
 
    
 
-# controls snake with left and right arrow
-def control(the_snake):
-    screen.screen.onkeypress(the_snake.turn_left, "Left")
-    screen.screen.onkeypress(the_snake.turn_right, "Right")
-
+def update_highscore(new_high_score):
+    with open("highscore.csv", "w") as csvfile:
+        high_score_writer = csv.writer(csvfile)
+        high_score_writer.writerow([new_high_score])
 
 
 if __name__ == "__main__":
