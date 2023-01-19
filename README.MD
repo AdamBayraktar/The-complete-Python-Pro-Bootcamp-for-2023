@@ -26,3 +26,4 @@ In the last column you can find all non-built modules that I used for the projec
 |   Turtle Crossing	|   23	|   a game where you have to help turtle reach finish line by avoiding being hit by car	|   4/10	|    turtle	|
 |   Guess US states	|   25	|   guessing game, where you have guess all US states	|   1/10	|    turtle	|
 |   Mile to KM converter	|   27	|   Miles to km converter with GUI	|   1/10	|    Tkinter	|
+|   Password Generator	|   29	|   Program with GUI that can generate and hold passwords	|   2/10	|    Tkinter	|
