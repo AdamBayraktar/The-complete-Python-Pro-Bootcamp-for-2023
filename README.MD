@@ -27,3 +27,4 @@ In the last column you can find all non-built modules that I used for the projec
 |   Guess US states	|   25	|   guessing game, where you have guess all US states	|   1/10	|    turtle	|
 |   Mile to KM converter	|   27	|   Miles to km converter with GUI	|   1/10	|    Tkinter	|
 |   Password Generator	|   29	|   Program with GUI that can generate and hold passwords	|   2/10	|    Tkinter	|
+|   Flash Card	|   31	|   Flash Card program, which helps to teach languages. By default, database is set to 1000 most frequent spanish words.	|   2/10	|    Tkinter	|
