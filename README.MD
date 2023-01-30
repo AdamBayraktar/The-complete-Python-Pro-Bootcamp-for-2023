@@ -28,3 +28,4 @@ In the last column you can find all non-built modules that I used for the projec
 |   Mile to KM converter	|   27	|   Miles to km converter with GUI	|   1/10	|    Tkinter	|
 |   Password Generator	|   29	|   Program with GUI that can generate and hold passwords	|   2/10	|    Tkinter	|
 |   Flash Card	|   31	|   Flash Card program, which helps to teach languages. By default, database is set to 1000 most frequent spanish words.	|   2/10	|    Tkinter	|
+|   Quiz Game	|   34	|   A Quiz Game that uses Trivia API with GUI built on Tkinter	|   2/10	|    Tkinter	|
