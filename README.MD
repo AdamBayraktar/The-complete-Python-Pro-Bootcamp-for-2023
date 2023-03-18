@@ -34,3 +34,4 @@ As projects get more and more complex and the number of modules increase, it get
 |   Auto Promotion Card	|   56	|   Self card created using Flask	|   1/10	|    none	|    Flask	|
 |   Flask Blog	|   57	|   Simple blog created on Flask	|   1/10	|    none	|    Flask	|
 |   Flask Blog ++	|   59	|   More advanced Flask Blog with working form	|   2/10	|    none |    Flask	|
+|   Coffe and Wifi	|   62	|   Flask based website where you can find information about cafe and you can add another ones	|   3/10	|    WTForms, Flask_WTF |    Flask	|
