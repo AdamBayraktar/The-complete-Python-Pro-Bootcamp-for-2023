@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body>
+    {% for book in books %}
+    <p>Book Name: {{ book.title }}</p>
+    <p>Current rating {{ book.review }}</p>
+    <form method="POST" action="/?id={{ book.id }}">
+        <input type="number" step="0.1" id="rating" name="rating" value="New rating">
+        <input type="submit" value="Change Rating">
+    </form>
+    {% endfor %}
+</body>
+</html>
